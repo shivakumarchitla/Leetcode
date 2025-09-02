@@ -1,8 +1,6 @@
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
-        n = []
-        l = []
-        q = []
+        n,l,q = [],[],[]
         for i in nums:
             if i%2==0:
                 n.append(i)
